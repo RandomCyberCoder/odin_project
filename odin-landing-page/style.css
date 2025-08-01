@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+img {
+  object-fit: cover; 
+  border-radius: 10px;
+}
+.header,
+.section-1 {
+  color: aliceblue;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding: 10px 12%;
+  background-color: rgba(32, 41, 56, 255);
+  align-items: baseline;
+}
+
+.header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+button{
+    font: 15px;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* section 1 */
+
+.section-1 {
+  display: flex;
+  padding: 150px 12%;
+  background-color: rgba(32, 41, 56, 255);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.image-companion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.image-companion button {
+  background-color: rgba(59, 130, 246, 255);
+  border: 0;
+  color: white;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-right: auto;
+  flex: auto;
+  font-weight: 600;
+}
+
+.title-1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section-1 img {
+  height: 300px; 
+  width: auto; 
+}
+
+/* section 2 */
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.teams {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.title-2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.team-card img {
+  width: 90%;
+  border: 4px solid rgba(104, 151, 218, 1);
+}
+
+.team-card {
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  color: rgb(111, 108, 116);
+}
+
+/* section 3 */
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 20%;
+  background-color: #e6e7eb;
+
+}
+
+.section-3 .quote {
+  font-size: 40px;
+  font-style: italic;
+  align-self: flex-start;
+  color: #474747;
+}
+
+.section-3 .author {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+/* section 4 */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  gap: 30px;
+  background-color: #3b82f6;
+  padding: 15px 12%;
+  border-radius: 7px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-4{
+  font-weight: bold;
+}
+
+.content-4{
+  font-size: 15px;
+}
+
+.section-4 button{
+  margin-left: auto;
+  padding: 1px 20px;
+  border-color: white;
+  border-style: solid;
+  background-color: transparent;
+  border-radius: 7px;
+  font-size: 13px;
+  color: inherit
+  
+}
+
+/* footer */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: rgba(32, 41, 56, 255);
+  color: white;
+  padding: 20px;
+}

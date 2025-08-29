@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="landingpage.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div id="image_container">
+        <img src="images/SAR.avif" alt="Search and Rescue operation" />
+        <div id="banner">
+          <img
+            id="odin-image"
+            src="images/odin-lined.png"
+            alt="placeholder image"
+          />
+          IntelliSar (Search and Rescue)
+        </div>
+      </div>
+      <div id="form-container">
+        <div id="text">
+          <p style="margin-bottom: 1em;">
+            This is a mock contact page for the future search and Rescue
+            website. To show the professor
+          </p>
+          <p></p>
+          <p>Contact us using the following form!</p>
+        </div>
+        <form action="#">
+          <div class="text-general"> Let's get in touch!</div>
+          <div id="fields">
+            <div id="field" class="text-general">
+              <label for="first">First Name</label>
+              <input type="text" id="first" name="first" required />
+            </div>
+
+            <div id="field" class="text-general">
+              <label for="last">Last Name</label>
+              <input type="text" id="last" name="last" required />
+            </div>
+
+            <div id="field" class="text-general">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@example.com"
+              />
+            </div>
+
+            <div id="field" class="text-general">
+              <label for="phone_num">Phone Number</label>
+              <input
+                type="tel"
+                id="phone_num"
+                name="phone_num"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="xxx-xxx-xxxx"
+              />
+            </div>
+
+            <div id="field" class="text-general">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+
+            <div id="field" class="text-general">
+              <label for="confirm">Confirm Password</label>
+              <input type="password" id="password" />
+            </div>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+        <div id="alternate">
+          Already have an account?
+          <button>Log in</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

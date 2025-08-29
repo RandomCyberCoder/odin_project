@@ -1,0 +1,131 @@
+
+
+@font-face {
+  font-family: norse-bold;
+  src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content {
+  display: flex;
+  width: 100%; /* content container spans page width */
+  height: 100vh; /* optional if you want full-page height */
+}
+
+#image_container{
+    position: relative;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+#banner{
+    position: absolute;
+    bottom: 680px;
+    background-color: rgb(89, 30, 184, 0.33);
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: norse-bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#odin-image{
+    height: 80px;
+    width: auto;
+    margin-right: 15px;
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 100px;
+  align-items: flex-start;
+  flex: 0 1 auto;
+  max-width: 750px;
+  width: 100%;
+  height: auto;
+}
+
+#text, #alternate {
+  margin-left: 15px;
+}
+
+form div {
+  padding: 5px;
+}
+
+form input {
+  border-radius: 5px;
+  border-style: solid;
+  background-color: white;
+}
+
+form #field {
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+    color: rgb(53, 74, 133);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* flex: 0 1 auto;
+  max-width: 750px;
+  width: 100%;
+  height: auto; */
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(53, 74, 133);
+  font-weight: bold;
+}
+
+form button {
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border-style: solid;
+  background-color: rgb(53, 74, 133);
+  border-color: transparent;
+  color: white;
+}
+
+#fields {
+  background-color: lightgray;
+}
+
+.text-general, #text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+

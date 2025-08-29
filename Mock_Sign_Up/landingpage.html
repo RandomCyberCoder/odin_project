@@ -21,7 +21,7 @@
       </div>
       <div id="form-container">
         <div id="text">
-          <p style="margin-bottom: 1em;">
+          <p style="margin-bottom: 1em">
             This is a mock contact page for the future search and Rescue
             website. To show the professor
           </p>
@@ -29,16 +29,28 @@
           <p>Contact us using the following form!</p>
         </div>
         <form action="#">
-          <div class="text-general"> Let's get in touch!</div>
+          <div class="text-general">Let's get in touch!</div>
           <div id="fields">
             <div id="field" class="text-general">
               <label for="first">First Name</label>
-              <input type="text" id="first" name="first" required />
+              <input
+                type="text"
+                id="first"
+                name="first"
+                pattern="^(?=.*[A-Za-z]).*$"
+                required
+              />
             </div>
 
             <div id="field" class="text-general">
               <label for="last">Last Name</label>
-              <input type="text" id="last" name="last" required />
+              <input
+                type="text"
+                id="last"
+                name="last"
+                pattern="^(?=.*[A-Za-z]).*$"
+                required
+              />
             </div>
 
             <div id="field" class="text-general">
@@ -48,6 +60,7 @@
                 id="email"
                 name="email"
                 placeholder="example@example.com"
+                required
               />
             </div>
 
@@ -64,12 +77,12 @@
 
             <div id="field" class="text-general">
               <label for="password">Password</label>
-              <input type="password" id="password" name="password" />
+              <input type="password" id="password" name="password" required />
             </div>
 
             <div id="field" class="text-general">
               <label for="confirm">Confirm Password</label>
-              <input type="password" id="password" />
+              <input type="password" id="password" required />
             </div>
           </div>
 

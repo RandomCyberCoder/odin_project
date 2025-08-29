@@ -74,6 +74,14 @@ form input {
   background-color: white;
 }
 
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
 form #field {
   display: flex;
   flex-direction: column;
